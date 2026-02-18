@@ -1,0 +1,25 @@
+name: nearby_pay
+description: Secure Proximity Payments
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # UI
+  google_fonts: ^6.1.0
+  lucide_icons: ^0.257.0 
+  flutter_animate: ^4.2.0
+  glassmorphism: ^3.0.0
+  
+  # State & Logic
+  provider: ^6.0.0
+  http: ^1.1.0
+  intl: ^0.18.0
+  
+  # Security
+  encrypt: ^5.0.3
+  shared_preferences: ^2.2.0
+
+flutter:
+  uses-material-design: true
